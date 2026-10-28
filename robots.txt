@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pellist.github.io/sitemap.xml
