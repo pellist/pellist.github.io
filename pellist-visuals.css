@@ -344,3 +344,1016 @@
     break-inside: avoid;
   }
 }
+
+:root {
+  --bg: #f3efe7 !important;
+  --paper: #fbf9f4 !important;
+  --ink: #332f29 !important;
+  --muted: #756d62 !important;
+  --accent: #89745e !important;
+  --soft: #e9e1d5 !important;
+  --line: #ded5c8 !important;
+  --sage: #e5e7de !important;
+  --radius: 18px !important;
+}
+
+body {
+  background:
+    radial-gradient(ellipse at 92% 9%, #e8dfd2 0, transparent 26rem),
+    var(--bg) !important;
+  color: var(--ink) !important;
+}
+
+.site-header {
+  background: #f3efe7ed !important;
+  border-bottom-color: #ded5c8 !important;
+}
+
+.logo {
+  color: #39342d;
+}
+
+.navlinks a:hover,
+.text-link:hover {
+  color: #79634c;
+}
+
+.btn {
+  border-color: #554b3f !important;
+  background: #554b3f !important;
+  color: #fbf9f4 !important;
+}
+
+.btn:hover {
+  background: #6a5947 !important;
+}
+
+.btn.alt {
+  border-color: #b7a995 !important;
+  background: transparent !important;
+  color: #443c32 !important;
+}
+
+.btn.alt:hover {
+  background: #e9e1d5 !important;
+}
+
+.hero-art {
+  background:
+    radial-gradient(ellipse at 82% 18%, #d2c1a8 0 11%, transparent 11.3%),
+    linear-gradient(140deg, #e8e1d5, #d8cbb8) !important;
+}
+
+.hero-art::before {
+  content: "PELLIST.\A BRAND IDENTITY\A VISUAL DESIGN" !important;
+  padding: 7% 8% !important;
+  background:
+    linear-gradient(90deg, transparent 49.8%, #ffffff1a 50%, transparent 50.2%),
+    linear-gradient(0deg, transparent 74.8%, #ffffff1a 75%, transparent 75.2%),
+    linear-gradient(140deg, #403a32 0 53%, #5b5144 53% 72%, #806f58 72%) !important;
+  box-shadow: 0 24px 55px #4c44372b !important;
+  font-size: clamp(0.9rem, 2vw, 1.55rem) !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.045em !important;
+}
+
+.hero-art::after {
+  color: #6f5c46 !important;
+}
+
+.section-head p,
+.hero p {
+  color: #756d62 !important;
+}
+
+.card,
+.form {
+  border-color: #ded5c8 !important;
+  background: #fbf9f4 !important;
+  box-shadow: 0 12px 32px #584a3610;
+}
+
+.card {
+  border-radius: 18px !important;
+}
+
+.work-art {
+  background-image:
+    linear-gradient(145deg, #e2d4c2aa, #fbf8f2a0),
+    linear-gradient(135deg, #ffffff35, transparent 55%),
+    radial-gradient(circle at 82% 20%, #ffffff85 0 8%, transparent 8.3%) !important;
+}
+
+.work-art::before {
+  border-color: #fffefa9e !important;
+  background: #fbf8f23a !important;
+}
+
+.work-art::after {
+  background: #fffefaab !important;
+}
+
+.tag {
+  background: #e9e1d5 !important;
+  color: #625443 !important;
+}
+
+.highlight {
+  background: #e5e7de !important;
+}
+
+.step {
+  border-top-color: #a28d72 !important;
+}
+
+.step strong {
+  color: #89745e !important;
+}
+
+.about-art {
+  background:
+    radial-gradient(circle at 78% 28%, #bca990 0 10%, transparent 10.3%),
+    linear-gradient(140deg, #eee9df, #dcd3c6) !important;
+}
+
+.about-art::before {
+  background:
+    linear-gradient(90deg, transparent 49.8%, #332f2912 50%, transparent 50.2%),
+    linear-gradient(0deg, transparent 74.8%, #332f2912 75%, transparent 75.2%),
+    #fbf9f4 !important;
+}
+
+.about-art::after {
+  color: #6f5c46 !important;
+}
+
+.faq details {
+  border-bottom-color: #ded5c8 !important;
+}
+
+.field input,
+.field select,
+.field textarea,
+.document-fields input,
+.document-fields textarea {
+  border-color: #c9bead !important;
+  background: #fffdf8 !important;
+}
+
+.notice,
+.document-tools {
+  border-left-color: #a18a6c !important;
+  background: #eee8dd !important;
+}
+
+.document-tools {
+  border: 1px solid #ded5c8 !important;
+}
+
+.document-status {
+  color: #596850 !important;
+}
+
+.modal {
+  background: #27231dbd !important;
+}
+
+.dialog {
+  border: 1px solid #ded5c8;
+  background: #fbf9f4 !important;
+}
+
+.close {
+  background: #e9e1d5 !important;
+  color: #443c32;
+}
+
+.quote-paper {
+  border-color: #ded5c8 !important;
+  background: #fffefa !important;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline-color: #89745e !important;
+}
+
+.business-document .quote-brand {
+  border-bottom-color: #89745e !important;
+}
+
+.business-document .quote-brand span {
+  color: #89745e !important;
+}
+
+.business-document-table th,
+.business-document-table td {
+  border-bottom-color: #ded5c8 !important;
+}
+
+.business-document-grand-total {
+  border-top-color: #a18a6c !important;
+}
+
+.business-document-note {
+  border-top-color: #ded5c8 !important;
+}
+
+@media print {
+  body {
+    background: #fff !important;
+  }
+}
+
+:root {
+  --bg: #efebe4 !important;
+  --paper: #f7f3ec !important;
+  --ink: #2f2a25 !important;
+  --muted: #5f564c !important;
+  --accent: #8c7a66 !important;
+  --soft: #e8e0d5 !important;
+  --line: #d9d0c4 !important;
+  --sage: #e9e9e1 !important;
+}
+
+body {
+  background: #efebe4 !important;
+  color: #2f2a25 !important;
+  font-family: "Noto Sans Thai", sans-serif !important;
+  font-size: 15.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.9 !important;
+}
+
+p,
+li,
+summary,
+label,
+.hint {
+  line-height: 1.9 !important;
+}
+
+h1,
+h2,
+h3 {
+  color: #2f2a25 !important;
+  font-family: "Noto Sans Thai", sans-serif !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.01em !important;
+  line-height: 1.75 !important;
+}
+
+h1 {
+  font-size: clamp(2.2rem, 5.2vw, 4.5rem) !important;
+}
+
+h2 {
+  font-size: clamp(1.7rem, 3.2vw, 2.7rem) !important;
+}
+
+h3 {
+  font-size: 1.15rem !important;
+}
+
+.logo,
+.en,
+.eyebrow,
+.step strong,
+.price {
+  font-family: Jost, "Noto Sans Thai", sans-serif !important;
+}
+
+.eyebrow {
+  color: #756757 !important;
+  font-size: 0.76rem !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.14em !important;
+}
+
+.logo {
+  color: #2f2a25 !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.045em !important;
+}
+
+.hero p,
+.section-head p,
+.card p,
+.faq details p,
+.muted {
+  color: #5f564c !important;
+  font-weight: 300 !important;
+  line-height: 1.9 !important;
+}
+
+.btn,
+.btn.small,
+.service-card .buttons .btn {
+  min-height: 44px !important;
+  border: 1px solid #8c7a66 !important;
+  border-radius: 2px !important;
+  background: #8c7a66 !important;
+  color: #f7f3ec !important;
+  font-family: Jost, "Noto Sans Thai", sans-serif !important;
+  font-size: 0.78rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.12em !important;
+  line-height: 1.7 !important;
+  text-transform: uppercase;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.btn:hover {
+  border-color: #756451 !important;
+  background: #756451 !important;
+}
+
+.btn.alt {
+  border-color: #b6a895 !important;
+  background: transparent !important;
+  color: #554b40 !important;
+}
+
+.btn.alt:hover {
+  background: #e8e0d5 !important;
+}
+
+.site-header {
+  background: #efebe4f2 !important;
+  border-bottom: 1px solid #d9d0c4 !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.navlinks a {
+  color: #4a433a !important;
+  font-size: 0.9rem !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.025em !important;
+}
+
+.menu {
+  border-color: #d9d0c4 !important;
+  color: #2f2a25 !important;
+}
+
+.hero-art {
+  border-radius: 2px !important;
+  background: #e8e0d5 !important;
+}
+
+.hero-art::before {
+  inset: 12% 13% 17% !important;
+  border: 1px solid #d9d0c4 !important;
+  border-radius: 2px !important;
+  background: #f7f3ec !important;
+  box-shadow: none !important;
+  color: #51483d !important;
+  font-family: Jost, "Noto Sans Thai", sans-serif !important;
+  font-size: clamp(0.9rem, 1.8vw, 1.35rem) !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.14em !important;
+  line-height: 1.8 !important;
+}
+
+.hero-art::after {
+  color: #5f564c !important;
+  font-family: Jost, "Noto Sans Thai", sans-serif !important;
+  font-size: 0.68rem !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.14em !important;
+}
+
+.section-head {
+  gap: 28px !important;
+  margin-bottom: 42px !important;
+}
+
+.grid {
+  gap: 24px !important;
+}
+
+.card,
+.form,
+.dialog {
+  border: 1px solid #d9d0c4 !important;
+  border-radius: 2px !important;
+  background: #f7f3ec !important;
+  box-shadow: none !important;
+}
+
+.card-body {
+  padding: 26px !important;
+}
+
+.work-art {
+  background-image: none !important;
+}
+
+.work-art::before {
+  border-color: #f7f3ecb8 !important;
+  border-radius: 2px !important;
+  background: #f7f3ec2e !important;
+}
+
+.work-art::after {
+  background: #f7f3ecb8 !important;
+}
+
+.work-art span {
+  color: inherit;
+  font-family: Jost, "Noto Sans Thai", sans-serif !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.08em !important;
+}
+
+.tag {
+  border-radius: 2px !important;
+  background: #e8e0d5 !important;
+  color: #5f564c !important;
+}
+
+.highlight {
+  background: #e9e9e1 !important;
+}
+
+.step {
+  border-top: 1px solid #b6a895 !important;
+}
+
+.step strong {
+  color: #8c7a66 !important;
+  font-weight: 300 !important;
+}
+
+.about-art {
+  border-radius: 2px !important;
+  background: #e8e0d5 !important;
+}
+
+.about-art::before {
+  border: 1px solid #d9d0c4 !important;
+  border-radius: 2px !important;
+  background: #f7f3ec !important;
+  box-shadow: none !important;
+  color: #51483d !important;
+  font-family: Jost, "Noto Sans Thai", sans-serif !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.12em !important;
+}
+
+.about-art::after {
+  color: #5f564c !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.14em !important;
+}
+
+.faq details {
+  border-bottom: 1px solid #d9d0c4 !important;
+}
+
+.faq summary,
+.field label,
+.document-fields label {
+  color: #3e372f !important;
+  font-weight: 400 !important;
+  line-height: 1.85 !important;
+}
+
+.field input,
+.field select,
+.field textarea,
+.document-fields input,
+.document-fields textarea {
+  border: 1px solid #cfc4b5 !important;
+  border-radius: 2px !important;
+  background: #fbf8f2 !important;
+  color: #2f2a25 !important;
+  line-height: 1.8 !important;
+}
+
+.notice,
+.document-tools {
+  border: 1px solid #d9d0c4 !important;
+  border-left: 2px solid #8c7a66 !important;
+  border-radius: 2px !important;
+  background: #f3efe8 !important;
+  color: #554b40 !important;
+  line-height: 1.9 !important;
+}
+
+.document-tools h3,
+.document-tools p,
+.document-status {
+  line-height: 1.9 !important;
+}
+
+.document-status {
+  color: #596850 !important;
+}
+
+.modal {
+  background: #2f2a2566 !important;
+}
+
+.close {
+  border: 1px solid #d9d0c4 !important;
+  border-radius: 2px !important;
+  background: #e8e0d5 !important;
+  color: #2f2a25 !important;
+}
+
+.quote-paper {
+  border: 1px solid #d9d0c4 !important;
+  border-radius: 2px !important;
+  background: #fbf8f2 !important;
+  color: #2f2a25 !important;
+  line-height: 1.9 !important;
+}
+
+.price {
+  color: #51483d !important;
+  font-weight: 400 !important;
+}
+
+.business-document .quote-brand,
+.business-document .quote-brand span {
+  border-bottom-color: #8c7a66 !important;
+  color: #756757 !important;
+}
+
+.business-document .quote-brand strong {
+  color: #2f2a25 !important;
+  font-family: Jost, "Noto Sans Thai", sans-serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.08em !important;
+}
+
+.business-document {
+  color: #2f2a25 !important;
+  background: #fbf8f2 !important;
+  font-family: "Noto Sans Thai", sans-serif !important;
+  line-height: 1.9 !important;
+}
+
+.business-document-table th,
+.business-document-table td,
+.business-document-note {
+  border-color: #d9d0c4 !important;
+  line-height: 1.8 !important;
+}
+
+.business-document-grand-total {
+  border-top-color: #8c7a66 !important;
+  color: #2f2a25 !important;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 2px solid #8c7a66 !important;
+}
+
+@media (max-width: 600px) {
+  .section-head {
+    margin-bottom: 30px !important;
+  }
+
+  .card-body {
+    padding: 22px !important;
+  }
+
+  .hero-art::before {
+    letter-spacing: 0.1em !important;
+  }
+}
+
+@media print {
+  body {
+    background: #fff !important;
+    color: #2f2a25 !important;
+    font-family: "Noto Sans Thai", sans-serif !important;
+  }
+}
+.line-contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.line-contact:hover {
+  color: #79634c;
+}
+
+.line-contact svg {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.line-contact circle {
+  fill: currentColor;
+  stroke: none;
+}
+
+:root {
+  --bg: #ffffff !important;
+  --paper: #ffffff !important;
+  --ink: #2f2a25 !important;
+  --muted: #5f564c !important;
+  --accent: #7a6853 !important;
+  --soft: #f7f3ec !important;
+  --line: #e6ded2 !important;
+  --sage: #f7f3ec !important;
+}
+
+body {
+  background: #ffffff !important;
+  color: #2f2a25 !important;
+  font-family: "Noto Sans Thai", sans-serif !important;
+  font-size: 15.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.9 !important;
+}
+
+p,
+li,
+summary,
+label,
+.hint {
+  color: #5f564c;
+  line-height: 1.9 !important;
+}
+
+h1,
+h2,
+h3 {
+  color: #2f2a25 !important;
+  font-family: "Noto Sans Thai", sans-serif !important;
+  font-weight: 300 !important;
+  line-height: 1.75 !important;
+}
+
+h1:lang(en),
+h2:lang(en),
+h3:lang(en),
+.card h3,
+.dialog h2,
+.en,
+.eyebrow,
+.step strong,
+.price {
+  font-family: Jost, "Noto Sans Thai", sans-serif !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  color: #5f564c !important;
+  font-size: 0.76rem !important;
+  letter-spacing: 0.14em !important;
+}
+
+.logo {
+  color: #2f2a25 !important;
+}
+
+.hero,
+#work,
+#process,
+#faq {
+  background: #ffffff !important;
+}
+
+#services,
+#about,
+#contact,
+#privacy,
+.footer {
+  background: #f7f3ec !important;
+}
+
+.site-header {
+  background: #ffffff !important;
+  border-bottom: 1px solid #e6ded2 !important;
+  backdrop-filter: none !important;
+}
+
+.navlinks a,
+.faq summary,
+.field label,
+.document-fields label {
+  color: #2f2a25 !important;
+}
+
+a:not(.btn):not(.logo):not(.skip),
+.navlinks a:hover,
+.text-link:hover,
+.line-contact:hover {
+  color: #7a6853;
+}
+
+.btn,
+.btn.small,
+.service-card .buttons .btn {
+  min-height: 44px !important;
+  border: 1px solid #7a6853 !important;
+  border-radius: 2px !important;
+  background: #7a6853 !important;
+  color: #ffffff !important;
+  font-family: Jost, "Noto Sans Thai", sans-serif !important;
+  font-size: 0.78rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.12em !important;
+  line-height: 1.7 !important;
+  text-transform: uppercase;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.btn:hover {
+  border-color: #675744 !important;
+  background: #675744 !important;
+}
+
+.btn.alt {
+  border-color: #7a6853 !important;
+  background: transparent !important;
+  color: #7a6853 !important;
+}
+
+.btn.alt:hover {
+  background: #eae2d6 !important;
+}
+
+.hero-art,
+.about-art,
+.work-art {
+  border: 1px solid #e6ded2 !important;
+  border-radius: 2px !important;
+  background: #f7f3ec !important;
+  box-shadow: none !important;
+}
+
+.hero-art::before,
+.about-art::before {
+  border: 1px solid #b89b6a !important;
+  border-radius: 2px !important;
+  background: #ffffff !important;
+  box-shadow: none !important;
+  color: #2f2a25 !important;
+  font-family: Jost, "Noto Sans Thai", sans-serif !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.12em !important;
+}
+
+.hero-art::after,
+.about-art::after {
+  color: #5f564c !important;
+  font-family: Jost, "Noto Sans Thai", sans-serif !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.12em !important;
+}
+
+.work-art {
+  background-image: none !important;
+}
+
+.work-art::before {
+  border-color: #b89b6a !important;
+  background: #ffffff !important;
+}
+
+.work-art::after {
+  background: #b89b6a !important;
+}
+
+.work-art span {
+  color: #2f2a25 !important;
+  font-family: Jost, "Noto Sans Thai", sans-serif !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.12em !important;
+}
+
+.card,
+.form,
+.dialog,
+.quote-paper,
+.business-document {
+  border: 1px solid #e6ded2 !important;
+  border-radius: 2px !important;
+  background: #ffffff !important;
+  box-shadow: none !important;
+  color: #2f2a25 !important;
+}
+
+.tag {
+  border: 1px solid #e6ded2 !important;
+  border-radius: 2px !important;
+  background: #f7f3ec !important;
+  color: #5f564c !important;
+}
+
+.highlight {
+  background: #f7f3ec !important;
+}
+
+.step {
+  border-top: 1px solid #b89b6a !important;
+}
+
+.step strong {
+  color: #7a6853 !important;
+}
+
+.faq details {
+  border-bottom: 1px solid #e6ded2 !important;
+}
+
+.field input,
+.field select,
+.field textarea,
+.document-fields input,
+.document-fields textarea {
+  border: 1px solid #e6ded2 !important;
+  border-radius: 2px !important;
+  background: #ffffff !important;
+  color: #2f2a25 !important;
+  line-height: 1.8 !important;
+}
+
+.notice,
+.document-tools {
+  border: 1px solid #e6ded2 !important;
+  border-left: 2px solid #b89b6a !important;
+  border-radius: 2px !important;
+  background: #f7f3ec !important;
+  color: #5f564c !important;
+  line-height: 1.9 !important;
+}
+
+.document-status {
+  color: #2f2a25 !important;
+}
+
+.modal {
+  background: #2f2a2566 !important;
+}
+
+.close {
+  border: 1px solid #e6ded2 !important;
+  border-radius: 2px !important;
+  background: #f7f3ec !important;
+  color: #2f2a25 !important;
+}
+
+.business-document,
+.business-document-table th,
+.business-document-table td,
+.business-document-note {
+  line-height: 1.9 !important;
+}
+
+.business-document .quote-brand,
+.business-document .quote-brand span {
+  border-bottom-color: #b89b6a !important;
+  color: #5f564c !important;
+}
+
+.business-document .quote-brand strong,
+.business-document-grand-total {
+  color: #2f2a25 !important;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 2px solid #b89b6a !important;
+  outline-offset: 3px;
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #2f2a25 !important;
+    font-family: "Noto Sans Thai", sans-serif !important;
+  }
+}
+
+@property --hero-glow-x {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 50%;
+}
+
+@property --hero-glow-y {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 42%;
+}
+
+body {
+  background: #faf6ee !important;
+}
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 12% 18%, #ffffff 0, #ffffff00 46%),
+    radial-gradient(ellipse at 86% 22%, #faf3e4 0, #faf3e400 43%),
+    radial-gradient(ellipse at 54% 92%, #f2e7d2 0, #f7eedc00 51%),
+    radial-gradient(ellipse at var(--hero-glow-x, 50%) var(--hero-glow-y, 42%), #ffffffb8 0, #ffffff00 38%),
+    #faf6ee !important;
+}
+
+.hero > .wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.hero::before,
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.hero::before {
+  z-index: 0;
+  background: linear-gradient(
+    108deg,
+    transparent 34%,
+    #ffffff00 41%,
+    #ffffff99 49%,
+    #ffffff5c 53%,
+    #ffffff00 61%,
+    transparent 68%
+  );
+  transform: translateX(-120%) skewX(-12deg);
+  animation: hero-light-sheen 7s ease-in-out infinite;
+}
+
+.hero::after {
+  z-index: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='.08 0 0 0 .91 .08 0 0 0 .89 .08 0 0 0 .84 0 0 0 1 0'/%3E%3C/filter%3E%3Cpath filter='url(%23g)' d='M0 0h180v180H0z'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  opacity: 0.32;
+  mix-blend-mode: multiply;
+}
+
+@keyframes hero-light-sheen {
+  0%,
+  58% {
+    transform: translateX(-120%) skewX(-12deg);
+  }
+
+  100% {
+    transform: translateX(120%) skewX(-12deg);
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .hero {
+    animation: hero-glow-drift 8s ease-in-out infinite alternate;
+  }
+
+  @keyframes hero-glow-drift {
+    from {
+      --hero-glow-x: 34%;
+      --hero-glow-y: 36%;
+    }
+
+    to {
+      --hero-glow-x: 72%;
+      --hero-glow-y: 58%;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero,
+  .hero::before {
+    animation: none !important;
+  }
+}
